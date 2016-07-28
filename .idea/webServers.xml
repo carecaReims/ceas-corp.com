@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="87d7f57e-5049-43a3-94b6-2541f449feff" name="ceas-corp.com" url="http://ssh.ceas-corp.com">
+        <fileTransfer host="ssh.ceas-corp.com" port="22" accessType="SFTP" username="ceas-corp.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f54f730d-fe74-4a4c-a472-885a6f69e448" name="ceas-corp-local.com" url="http://127.0.0.1:8989/ceas-corp.com/">
+        <fileTransfer port="0" mountedRoot="D:\CEAS-CORP\site web\ceas-corp.com" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
